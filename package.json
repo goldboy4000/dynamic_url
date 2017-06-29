@@ -1,0 +1,19 @@
+{
+  "name": "dynamic_url",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaBestiaBY/dynamic_url.git"
+  },
+  "author": "LaBestia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaBestiaBY/dynamic_url/issues"
+  },
+  "homepage": "https://github.com/LaBestiaBY/dynamic_url#readme"
+}
