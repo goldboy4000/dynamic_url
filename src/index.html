@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body style="background: url(assets/img/bike.jpg) center center no-repeat fixed;">
+        <div>
+            <select>
+                <option selected disabled>-рама-</option>
+                <option value="300">углепластик</option>
+                <option value="200">аллюминий</option>
+                <option value="100">сталь</option>
+            </select>
+            <select>
+                <option selected disabled>-вилка-</option>
+                <option value="100">Rock Shox XC 32 TK 27</option>
+                <option value="80">Rock Shox YARI RC 27.5</option>
+                <option value="60">26" SR Suntour 3030</option>
+            </select>
+            <select>
+                <option selected disabled>-тормоза-</option>
+                <option value="90">Avid DB3</option>
+                <option value="80">Shimano M506</option>
+            </select>
+            <select>
+                <option selected disabled>-переключатели-</option>
+                <option value="75">Sram RD X9 10SPD</option>
+                <option value="65">Sram RD-NX</option>
+            </select>
+            <select>
+                <option selected disabled>-система шатунов-</option>
+                <option value="60">Sram X5 24mm, 38x24T</option>
+                <option value="45">Sram NX 24mm, 170 мм</option>
+            </select>
+        </div>
 
-</body>
+        <div id="total">
+            <p>total price: </p>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
 </html>
